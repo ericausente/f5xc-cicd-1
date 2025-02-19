@@ -14,7 +14,7 @@ terraform {
 provider "volterra" {
   timeout = "90s"
   # api_p12_file = "./training.console.ves.volterra.io.api-creds.p12"
-  url = "https://training-dev.console.ves.volterra.io/api"
+  url = "https://f5-consult.console.ves.volterra.io/api"
 }
 
 provider "aws" {
